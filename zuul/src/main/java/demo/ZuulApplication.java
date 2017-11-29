@@ -10,6 +10,8 @@ import org.springframework.stereotype.Component;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 
+import java.util.concurrent.TimeUnit;
+
 @SpringBootApplication
 @EnableZuulServer
 public class ZuulApplication {
